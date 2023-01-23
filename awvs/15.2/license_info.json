@@ -1,0 +1,33 @@
+{
+  "info": {
+    "license_key": "Pwn3rzs",
+    "company": "Pwn3rzs",
+    "name": "Pwn3rzs",
+    "phone": "+13457585654",
+    "email": "pwn@pwn3rzs.cloud",
+    "country": "US",
+    "first_activated": "2022-11-02",
+    "expires": "2027-11-12",
+    "maintenance_expires": "2027-11-12",
+    "max_engines": 100,
+    "max_targets": 900000,
+    "product_code": "AOPENT",
+    "bxss_user_id": "009247",
+    "bxss_api_key": "f61f2d2d-c11e-461d-8469-0c4924bdc4a2",
+    "is_offline": false,
+    "is_worker": false
+  },
+  "major_version": 15,
+  "minor_version": 0,
+  "build_number": 221109177,
+  "expired": false,
+  "maintenance_expired": false,
+  "scan": true,
+  "update": true,
+  "access": true,
+  "activation_error": 0,
+  "activated": true,
+  "checksum": "39ad70c40845035bf368433607093f5f",
+  "grace": -1,
+  "last_reactivated": "2022-10-23"
+}
